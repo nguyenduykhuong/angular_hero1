@@ -13,7 +13,8 @@ export class HeroesComponent implements OnInit {
 
   hero: Hero = {
     id: 1,
-    name: 'Windstorm'
+    name: 'Windstorm',
+    dateOfBird:'01/01/1990',power:100
   };
 
   heroes: Hero[] = [];
